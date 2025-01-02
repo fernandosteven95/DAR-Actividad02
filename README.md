@@ -4,7 +4,7 @@ Este proyecto consiste en un tutorial de Angular y fue realizacon con propósito
 
 ## Origen
 
-El proyecto se realizón con fines educativos para la materia Desarrollo de aplicaciones en red, del grado Ingeniería en informática de la Universidad Internacional de la Rioja. Corresponde a la actividad individual #2 y se basa en el enunciado del documento: [https://fernandosteven95.github.io/DAR-Actividad02/justificacion](https://alumnosunir-my.sharepoint.com/:w:/g/personal/fernando_zambrano314_comunidadunir_net/EU6Mn773yUpDshznfURqdeIBq5qjfkTJow28sesaKnl1Yw?e=qRGRJA)
+El proyecto se realizón con fines educativos para la materia Desarrollo de aplicaciones en red, del grado Ingeniería en informática de la Universidad Internacional de la Rioja. Corresponde a la actividad individual #2 y se basa en el enunciado este [documento](https://alumnosunir-my.sharepoint.com/:w:/g/personal/fernando_zambrano314_comunidadunir_net/EU6Mn773yUpDshznfURqdeIBq5qjfkTJow28sesaKnl1Yw?e=qRGRJA).
 
 ## Herramientas
 
