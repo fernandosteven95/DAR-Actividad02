@@ -1,0 +1,91 @@
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Primeros Pasos con Angular</h1>
+
+  <!-- Sección: Crear un proyecto -->
+  <section class="mb-5">
+    <h2>1. Crear un proyecto "Hola Mundo"</h2>
+    <p>Sigue estos pasos para crear tu primer proyecto en Angular:</p>
+    <ol>
+      <li>
+        Abre una terminal y ejecuta el siguiente comando para crear un nuevo proyecto:
+        <pre><code>ng new hola-mundo</code></pre>
+      </li>
+      <li>
+        Angular te pedirá seleccionar algunas configuraciones. Por ejemplo:
+        <ul>
+          <li><strong>¿Agregar routing?</strong> Responde <code>No</code>.</li>
+          <li><strong>¿Qué formato de hojas de estilo deseas usar?</strong> Selecciona <code>CSS</code>.</li>
+        </ul>
+      </li>
+      <li>
+        Navega al directorio del proyecto:
+        <pre><code>cd hola-mundo</code></pre>
+      </li>
+      <li>
+        Inicia el servidor de desarrollo:
+        <pre><code>ng serve --open</code></pre>
+        Esto abrirá el navegador en <code>http://localhost:4200</code> mostrando la página de inicio del proyecto.
+      </li>
+    </ol>
+  </section>
+
+  <!-- Sección: Estructura del proyecto -->
+  <section class="mb-5">
+    <h2>2. Estructura de un proyecto Angular</h2>
+    <p>Un proyecto Angular tiene la siguiente estructura:</p>
+
+    <!-- Imagen centrada -->
+    <div class="text-center my-4">
+      <img src="assets/estructuraProyecto.png" alt="Estructura del proyecto Angular" class="img-fluid" style="max-width: 50%; height: auto;" />
+    </div>
+
+    <!-- Descripciones de carpetas y archivos -->
+    <div class="mt-4">
+      <h3>Carpetas principales</h3>
+      <ul>
+        <li><strong>src/</strong>: Contiene el código fuente de la aplicación.</li>
+        <li><strong>app/</strong>: Contiene los componentes y la lógica de la aplicación.</li>
+        <li><strong>assets/</strong>: Recursos estáticos como imágenes y fuentes.</li>
+        <li><strong>environments/</strong>: Configuración para diferentes entornos (desarrollo, producción).</li>
+      </ul>
+
+      <h3>Archivos principales</h3>
+      <ul>
+        <li><strong>index.html</strong>: Punto de entrada principal de la aplicación.</li>
+        <li><strong>styles.css</strong>: Estilos globales de la aplicación.</li>
+        <li><strong>angular.json</strong>: Configuración del proyecto Angular.</li>
+        <li><strong>package.json</strong>: Contiene las dependencias del proyecto.</li>
+        <li><strong>tsconfig.json</strong>: Configuración del compilador TypeScript.</li>
+        <li><strong>app.component.ts</strong>: Define la lógica y comportamiento del componente principal de la aplicación.</li>
+        <li><strong>app.component.html</strong>: Contiene el código HTML para la interfaz del componente principal.</li>
+        <li><strong>app.component.css</strong>: Define los estilos específicos (CSS) para el componente principal.</li>
+        <li><strong>app.module.ts</strong>: Configura y registra los módulos y componentes utilizados en la aplicación.</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- Sección: Modificar el componente principal -->
+  <section class="mb-5">
+    <h2>3. Modificar el componente principal</h2>
+    <p>El archivo <code>app.component.ts</code> es el componente principal de Angular. Modifícalo para mostrar un "Hola Mundo":</p>
+    <pre><code>
+      /* app.component.ts */
+      import &#123; Component &#125; from '&#64;angular/core';
+
+      &#64;Component(&#123;
+            selector: 'app-root',
+            template: '&lt;h1&gt;Hola Mundo desde Angular&lt;/h1&gt;',
+        styleUrls: ['./app.component.css']
+      &#125;)
+      export class AppComponent &#123; &#125;
+    </code></pre>
+
+    <p>Guarda los cambios y verifica el resultado en el navegador.</p>
+  </section>
+
+  <!-- Imagen centrada -->
+  <div class="text-center my-4">
+    <img src="assets/ejemplo.png" alt="Pantallazo de un proyecto vacio" class="img-fluid" />
+  </div>
+</div>

@@ -1,0 +1,68 @@
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Instalación de Angular</h1>
+
+  <!-- Sección: Requisitos previos -->
+  <section class="mb-5">
+    <h2>1. Requisitos previos</h2>
+    <ul>
+      <li>Tener <strong>Node.js</strong> instalado (versión LTS recomendada).</li>
+      <li>Conexión a internet para instalar dependencias.</li>
+      <li>Un editor de texto, como <strong>VS Code</strong>.</li>
+    </ul>
+  </section>
+
+  <!-- Sección: Instalación de Node.js -->
+  <section class="mb-5">
+    <h2>2. Instalación de Node.js</h2>
+    <p>Descarga Node.js desde su <a href="https://nodejs.org/" target="_blank">sitio oficial</a> e instala la versión LTS.</p>
+    <pre><code>node -v</code></pre>
+    <p>Resultado esperado: <code>v16.x.x</code> o superior.</p>
+  </section>
+
+  <!-- Sección: Instalación de Angular CLI -->
+  <section class="mb-5">
+    <h2>3. Instalación de Angular CLI</h2>
+    <p>Ejecuta el siguiente comando para instalar Angular CLI globalmente:</p>
+    <pre><code>npm install -g &#64;angular/cli</code></pre>
+    <p>Verifica la instalación con:</p>
+    <pre><code>ng version</code></pre>
+    <p>Resultado esperado:</p>
+    <pre><code>
+    Angular CLI: 15.x.x
+    Node: 16.x.x
+    </code></pre>
+  </section>
+
+  <!-- Sección: Versiones necesarias -->
+  <section class="mb-5">
+    <h2>4. Versiones necesarias</h2>
+    <ul>
+      <li><strong>Node.js:</strong> 16.x.x o superior.</li>
+      <li><strong>Angular CLI:</strong> 15.x.x o superior.</li>
+      <li><strong>npm:</strong> 8.x.x o superior.</li>
+    </ul>
+  </section>
+
+  <!-- Sección: Rutas para tener en cuenta -->
+  <section class="mb-5">
+    <h2>5. Rutas para tener en cuenta</h2>
+    <p>Por defecto, Angular crea las carpetas y archivos en el directorio actual desde donde se ejecuta el comando.</p>
+    <p>Ejemplo:</p>
+    <pre><code>ng new my-angular-app</code></pre>
+    <p>Esto creará un directorio llamado <code>my-angular-app</code> en la ruta actual.</p>
+  </section>
+
+  <!-- Sección: Variables de entorno -->
+  <section class="mb-5">
+    <h2>6. Variables de entorno</h2>
+    <p>Angular no requiere variables de entorno específicas para funcionar, pero puedes configurar un archivo <code>environment.ts</code> para almacenar configuraciones como URLs o claves API.</p>
+    <pre><code>src/environments/environment.ts</code></pre>
+  </section>
+
+  <!-- Sección: ¿Necesita base de datos? -->
+  <section class="mb-5">
+    <h2>7. ¿Necesita base de datos?</h2>
+    <p>Angular no necesita una base de datos para funcionar, pero puedes integrarlo con APIs que interactúen con bases de datos como MySQL, MongoDB, o Firebase.</p>
+  </section>
+
+

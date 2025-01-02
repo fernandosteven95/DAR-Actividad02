@@ -1,0 +1,51 @@
+.container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #00B0F0; /* Color principal */
+  font-family: 'Calibri Light', sans-serif;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Márgenes verticales */
+.carousel {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Tamaño y ajuste de imágenes */
+.carousel-item img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho */
+  height: auto; /* Mantiene la proporción original */
+  max-height: 500px; /* Ajusta la altura máxima según tus necesidades */
+  object-fit: contain; /* Evita que se recorten, mostrando todo el contenido */
+  margin: 0 auto; /* Centra la imagen */
+}
+
+/* Estilo de controles personalizados */
+.custom-control .carousel-control-prev-icon,
+.custom-control .carousel-control-next-icon {
+  background-color: #00B0F0; /* Color principal */
+  border-radius: 50%; /* Botones redondos */
+  width: 40px;
+  height: 40px;
+}
+
+/* Hover para los controles */
+.custom-control:hover .carousel-control-prev-icon,
+.custom-control:hover .carousel-control-next-icon {
+  opacity: 0.8;
+}
+
+.carousel-caption {
+  display: none; /* Oculta las descripciones */
+}

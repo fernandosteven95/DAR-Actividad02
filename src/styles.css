@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-font: 'Calibri Light', sans-serif;
+  --primary-color: #00B0F0;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.navbar-nav .nav-link {
+  color: var(--primary-color);
+}
+
+.small-text {
+  font-size: 0.875rem;
+}
+
+.large-text {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.logo {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.custom-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.nav-tabs .nav-link {
+  color: var(--primary-color);
+  border-color: transparent;
+}
+
+

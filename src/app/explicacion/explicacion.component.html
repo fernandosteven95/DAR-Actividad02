@@ -1,0 +1,62 @@
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Formas de Uso de Angular</h1>
+  <div class="row">
+    <!-- Navegación lateral -->
+    <div class="col-4">
+      <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" (click)="scrollTo('desarrollo-web')">Desarrollo Web</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" (click)="scrollTo('spa')">Aplicaciones de Una Sola Página (SPA)</a>
+            <a class="nav-link ms-3 my-1" (click)="scrollTo('pwa')">Aplicaciones Web Progresivas (PWA)</a>
+          </nav>
+          <a class="nav-link" (click)="scrollTo('movil')">Desarrollo Móvil</a>
+          <a class="nav-link" (click)="scrollTo('empresarial')">Uso Empresarial</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" (click)="scrollTo('erp')">Sistemas ERP</a>
+            <a class="nav-link ms-3 my-1" (click)="scrollTo('crm')">Sistemas CRM</a>
+          </nav>
+        </nav>
+      </nav>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0" class="scrollspy-example-2">
+        <!-- Desarrollo Web -->
+        <div id="desarrollo-web">
+          <h4>Desarrollo Web</h4>
+          <p>Angular se utiliza principalmente para crear aplicaciones web dinámicas y modernas. Proporciona herramientas avanzadas para la gestión de datos y la interacción del usuario, facilitando la creación de interfaces intuitivas y personalizadas. Gracias a su arquitectura modular, Angular permite a los desarrolladores dividir grandes aplicaciones en componentes reutilizables, lo que mejora la escalabilidad y el mantenimiento. Además, su integración con servicios como HTTP y formularios reactivos lo hace ideal para manejar grandes volúmenes de datos de manera eficiente.</p>
+        </div>
+        <div id="spa">
+          <h5>Aplicaciones de Una Sola Página (SPA)</h5>
+          <p>Angular permite desarrollar SPA, donde todo el contenido se carga dinámicamente sin recargar la página completa, mejorando la experiencia del usuario y el rendimiento. Esto reduce significativamente el tiempo de carga inicial, ya que solo se solicitan y actualizan los datos necesarios. Las SPA creadas con Angular ofrecen navegación fluida, transiciones rápidas entre vistas, y un diseño más interactivo, lo que es ideal para aplicaciones que requieren una experiencia de usuario constante, como paneles de administración, tiendas en línea y redes sociales.</p>
+        </div>
+        <div id="pwa">
+          <h5>Aplicaciones Web Progresivas (PWA)</h5>
+          <p>Angular soporta PWA, que combinan lo mejor de las aplicaciones web y móviles, permitiendo funciones como notificaciones push y uso sin conexión. Las PWA desarrolladas con Angular pueden instalarse en dispositivos como si fueran aplicaciones nativas y ofrecen tiempos de carga ultrarrápidos. Gracias al soporte de Angular para Service Workers, estas aplicaciones pueden seguir funcionando incluso en condiciones de conectividad limitada, haciendo que sean ideales para mercados emergentes o áreas con acceso inestable a internet.</p>
+        </div>
+
+        <!-- Desarrollo Móvil -->
+        <div id="movil">
+          <h4>Desarrollo Móvil</h4>
+          <p>Con Angular y herramientas como Ionic, puedes crear aplicaciones móviles nativas y multiplataforma desde un único código base. Esto significa que los desarrolladores pueden construir aplicaciones para iOS y Android sin necesidad de aprender lenguajes específicos como Swift o Kotlin. Angular, junto con Ionic, también facilita la integración con APIs nativas, como la cámara, el GPS o el almacenamiento local, permitiendo el desarrollo de aplicaciones móviles ricas en funcionalidades y con una experiencia de usuario consistente.</p>
+        </div>
+
+        <!-- Uso Empresarial -->
+        <div id="empresarial">
+          <h4>Uso Empresarial</h4>
+          <p>Angular es popular en sistemas empresariales por su robustez y capacidad para manejar aplicaciones de gran escala y datos complejos. Empresas que necesitan soluciones personalizadas, como paneles de control, herramientas analíticas y sistemas de gestión, eligen Angular por su capacidad de integrar múltiples módulos y servicios de manera eficiente. Además, su sistema de inyección de dependencias simplifica la administración de datos y recursos, haciendo que el desarrollo de aplicaciones sea más rápido y confiable.</p>
+        </div>
+        <div id="erp">
+          <h5>Sistemas ERP</h5>
+          <p>Angular se utiliza para crear interfaces de sistemas ERP, que permiten gestionar recursos empresariales de manera eficiente. Estas interfaces están diseñadas para manejar grandes volúmenes de datos y realizar cálculos complejos en tiempo real. Gracias a Angular, las empresas pueden desarrollar dashboards personalizados que brindan información relevante sobre inventarios, finanzas, y operaciones, mejorando la toma de decisiones y optimizando los flujos de trabajo.</p>
+        </div>
+        <div id="crm">
+          <h5>Sistemas CRM</h5>
+          <p>Los sistemas CRM desarrollados con Angular ofrecen herramientas intuitivas para gestionar relaciones con clientes y mejorar la productividad. Con Angular, las empresas pueden construir interfaces dinámicas que integran datos de clientes, historiales de interacciones, y oportunidades de ventas en una sola vista. Además, la capacidad de Angular para manejar actualizaciones en tiempo real lo convierte en una excelente opción para desarrollar herramientas de comunicación y seguimiento, esenciales para equipos de ventas y atención al cliente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
